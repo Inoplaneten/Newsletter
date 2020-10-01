@@ -1,0 +1,26 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    span {
+        display: block;
+        font-weight: 400;
+    }
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+
+    li a.active, li a:hover  {
+    	color: #004FEC;
+    }
+
+    li:not(:last-child) {
+		margin-right: 35px;
+    }  
+}

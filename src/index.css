@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/ProximaNova-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/ProximaNova-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/ProximaNova-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+       font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/ProximaNova-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/ProximaNova-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/ProximaNova-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/ProximaNova-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/ProximaNova-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+       font-weight: 700;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font: 400 25px/1.2 'Proxima Nova', sans-serif;
+	color: #333D51;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 16px;
+}
+
+header, section, footer {
+	padding: 30px 0;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 39px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+p {
+	line-height: 1.5;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #333D51;
+	transition: all .4s ease;
+}
+
+img {
+	max-width: 100%;
+	object-fit: cover;
+}
